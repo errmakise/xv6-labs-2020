@@ -132,15 +132,15 @@ test concreate: OK
 test subdir: OK
 test fourfiles: OK
 test sharedfd: OK
-test exectest: page table 0x0000000086b13000
-..0: pte 0x0000000021ac6001 pa 0x0000000086b18000
-.. ..0: pte 0x0000000021ac6401 pa 0x0000000086b19000
-.. .. ..0: pte 0x0000000021ad901f pa 0x0000000086b64000
-.. .. ..1: pte 0x0000000021ac5c0f pa 0x0000000086b17000
-.. .. ..2: pte 0x0000000021ac581f pa 0x0000000086b16000
-..255: pte 0x0000000021ad7c01 pa 0x0000000086b5f000
-.. ..511: pte 0x0000000021ad8401 pa 0x0000000086b61000
-.. .. ..510: pte 0x00000000217f3807 pa 0x0000000085fce000
+test exectest: page table 0x000000008772b000
+..0: pte 0x0000000021dcc001 pa 0x0000000087730000
+.. ..0: pte 0x0000000021dcc401 pa 0x0000000087731000
+.. .. ..0: pte 0x0000000021ddf01f pa 0x000000008777c000
+.. .. ..1: pte 0x0000000021dcbc0f pa 0x000000008772f000
+.. .. ..2: pte 0x0000000021dcb81f pa 0x000000008772e000
+..255: pte 0x0000000021dddc01 pa 0x0000000087777000
+.. ..511: pte 0x0000000021dde401 pa 0x0000000087779000
+.. .. ..510: pte 0x0000000020316c07 pa 0x0000000080c5b000
 .. .. ..511: pte 0x0000000020001c0b pa 0x0000000080007000
 OK
 test bigargtest: OK
@@ -256,4 +256,4 @@ test iref: OK
 test forktest: OK
 test bigdir: OK
 ALL TESTS PASSED
-$ qemu-system-riscv64: terminating on signal 15 from pid 10690 (make)
+$ qemu-system-riscv64: terminating on signal 15 from pid 3942 (make)
