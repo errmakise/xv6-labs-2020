@@ -209,4 +209,4 @@ test iref: OK
 test forktest: OK
 test bigdir: OK
 ALL TESTS PASSED
-$ qemu-system-riscv64: terminating on signal 15 from pid 5128 (make)
+$ qemu-system-riscv64: terminating on signal 15 from pid 9834 (make)
